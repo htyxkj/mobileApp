@@ -1,0 +1,14 @@
+insorg  		添加字段  uuid
+inswaplist		添加字段  uuid、d_logo、d_appkey、d_appsecret
+message  		添加字段  d_appid、d_corpid     修改字段  appid=>w_appid
+oaggtz  		添加字段  d_appid、d_corpid     修改字段  appid=>w_appid
+oaggtzread 		添加字段  d_corpid
+users	  		添加字段  d_imgurl、d_corpid     修改字段  imgurl=>w_imgurl
+
+平台操作类
+inetbas.sserv.task.quartz.test.QuartzTT
+inetbas.web.webpage.wxserv.WeiWorkMang
+inetbas.web.webpage.wxpub.IMTool
+inetbas.web.webpage.wxpub.MobilePubTool
+inetbas.web.webpage.wxpub.WeiInConfig
+inetbas.web.webpage.wxpub.UserJson

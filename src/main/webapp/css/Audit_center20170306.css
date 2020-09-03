@@ -1,0 +1,229 @@
+/*内容body*/
+.audit_body{
+	background-color: white;
+}
+/*内容盒子*/
+.audit_content{
+	/*padding: 0 4%;*/
+}
+/*选项卡*/
+.audit_tab_control{
+	overflow: hidden;
+	border-bottom:1px solid #ddd;
+	padding: 0 12px;
+	height:48px;
+}
+/*选项卡导航内容标签*/
+.audit_tab_control>li{
+	float: left;
+	line-height: 48px;
+	width: 33%;
+	text-align: center;
+}
+/*导航a标签*/
+.audit_tab_control>li>a{
+	display: block;
+	color: #333;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	border-bottom: 4px solid #fff;
+}
+/*点击样式*/
+.audit_tabcon_click{
+	border-color: #0088dd !important;
+	color: #0088dd !important;
+}
+/*切换盒子*/
+.audit_list_container{
+	padding-top: 20px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	text-align: left;
+}
+/*列表盒子*/
+.audit_list_box{
+	border-left: 1px solid #ddd;
+	/*margin-left: 4%;*/
+	margin-left: 28px;
+	margin-right: 12px;
+	position: relative;
+	padding-bottom:20px;
+}
+/*icon_watch*/
+.audit_list_box>i{
+	display: flex;
+	position: absolute;
+	/*width: 10%;*/
+	/*height: 20%;*/
+	/*left: -5%;*/
+	width: 32px;
+	height: 32px;
+	left: 16px;
+	top: 0;
+	background-image:url(../img/icon_grey_watch.jpg);
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size:contain;
+}
+/*head portrait img*/
+.audit_list_box>img{
+	display: block;
+	position: absolute;
+	/*width: 10%;*/
+	/*height: 20%;*/
+	width: 32px;
+	height: 32px;
+	left: -16px;
+	top: 0;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+/*icon_blue*/
+.audit_blue_watch{
+	background-image:url(../img/icon_blue_watch.jpg) !important;
+}
+/*虚线盒子*/
+.audit_dashed_box{
+	border-bottom: 1px dashed #ccc;
+	margin-left: 8%;
+	overflow: hidden;
+	padding-bottom: 16px;
+	padding-top: 2px;
+}
+/*左面文本盒子*/
+.audit_dsd_lbox{
+	float: left;
+	width:70%;
+}
+/*合同立项文本*/
+.audit_dsd_lbox>div:nth-of-type(1){
+	font-size: 16px;
+	color: #333;
+}
+/*日期文本*/
+.audit_dsd_lbox>div:nth-of-type(2){
+	font-size: 16px;
+	color: #0088dd;
+	margin-top: 10px;
+}
+/*提交人*/
+.audit_dsd_lbox>div:nth-of-type(3){
+	font-size: 16px;
+	color: #333;
+	margin-top: 10px;
+}
+/*制单人*/
+.audit_dsd_lbox>div:nth-of-type(4){
+	font-size: 16px;
+	color: #333;
+	margin-top: 10px;
+}
+/*制单人*/
+.audit_dsd_lbox>div:nth-of-type(5){
+	font-size: 16px;
+	color: #333;
+	margin-top: 10px;
+}
+.audit_dsd_rbox{
+	float: right;
+	width:30%;
+}
+
+/*详情按钮*/
+.audit_btn{
+	display: block;
+	padding: 0 20px;
+	height: 28px;
+	background-color: #0088dd;
+	font-size: 14px;
+	color: #fff;
+	line-height: 28px;
+	text-align: center;
+	border-radius: 3px;
+	margin-top: 30px;
+}
+#scroller {
+	position: absolute;
+	z-index: 1;
+	/*	-webkit-touch-callout:none;*/
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 100%;
+	padding: 0;
+}
+#pullDown, #pullUp {
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	color: #888;
+	font-family: Arial, Microsoft YaHei;
+}
+#pullUp{ display:block;}
+
+#audit_list {
+	position: absolute;
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	top:68px;
+}
+.loader {
+	display: inline-block;
+	font-size: 0px;
+	padding: 0px;
+	display: none;
+}
+.loader span {
+	vertical-align: middle;
+	border-radius: 100%;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 0 2px;
+	-webkit-animation: loader 0.8s linear infinite alternate;
+	animation: loader 0.8s linear infinite alternate;
+}
+.loader span:nth-child(1) {
+	-webkit-animation-delay: -1s;
+	animation-delay: -1s;
+	background: rgba(245, 103, 115,0.6);
+}
+.loader span:nth-child(2) {
+	-webkit-animation-delay: -0.8s;
+	animation-delay: -0.8s;
+	background: rgba(245, 103, 115,0.8);
+}
+.loader span:nth-child(3) {
+	-webkit-animation-delay: -0.26666s;
+	animation-delay: -0.26666s;
+	background: rgba(245, 103, 115,1);
+}
+.loader span:nth-child(4) {
+	-webkit-animation-delay: -0.8s;
+	animation-delay: -0.8s;
+	background: rgba(245, 103, 115,0.8);
+}
+.loader span:nth-child(5) {
+	-webkit-animation-delay: -1s;
+	animation-delay: -1s;
+	background: rgba(245, 103, 115,0.4);
+}
+@keyframes loader {
+	from {
+		transform: scale(0, 0);
+	}
+	to {
+		transform: scale(1, 1);
+	}
+}
+@-webkit-keyframes loader {
+	from {
+		-webkit-transform: scale(0, 0);
+	}
+	to {
+		-webkit-transform: scale(1, 1);
+	}
+}

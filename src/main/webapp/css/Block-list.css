@@ -1,0 +1,56 @@
+.list-body{
+    padding:15px;
+}
+.list-title{
+    text-align: center;
+    font-size: 16px;
+}
+.list-con{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.list-a{
+    width: 100%;
+    margin: 10px 0;
+    float: left;
+    font-size: 12px;
+    box-shadow: 1px 1px 10px #d3d3d3;
+    padding: 4%;
+    color: #333;
+    min-height: 111px;
+
+}
+.list-aa{
+    margin-bottom: 5px;
+    overflow: auto;
+}
+.list-aa span{
+    float: left;
+}
+.list-bt{
+    width: 26%;
+}
+.list-hk{
+    width: 66%;
+}
+
+
+
+@media screen and (max-width:413px){
+    .list-a{
+        width: 90%;
+        margin: 10px 0;
+        padding: 10px 5%;
+        min-height: 62px;
+    }
+    .list-bt{
+        width: 30%;
+    }
+    .list-hk{
+        width: 70%;
+    }
+}
+
+
+
