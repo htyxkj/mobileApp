@@ -1,2 +1,3 @@
 *.properties
 .settings
+*.class
