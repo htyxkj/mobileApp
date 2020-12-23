@@ -1,3 +1,4 @@
 *.properties
 .settings
 *.class
+/target/
